@@ -49,22 +49,20 @@ The scope could be anything specifying place of the commit change, such as a com
 
 You can use `*` when the change affects more than a single scope.
 
-### Subject
+### Subject (short, imperative description)
 The subject contains succinct description of the change:
 
 * use the imperative, present tense: "change" not "changed" nor "changes"
 * don't capitalize first letter
 * no dot (.) at the end
+* if we are tracking the issue in Jira or another issue tracking system, include the tracking id here
 
-### Body
+### Body (longer description)
 Just as in the **subject**, use the imperative, present tense: "change" not "changed" nor "changes".
 The body should include the motivation for the change and contrast this with previous behavior.
 
-### Footer
 The footer should contain any information about **Breaking Changes** and is also the place to
 [reference GitHub issues that this commit closes][closing-issues].
 
 **Breaking Changes** should start with the word `BREAKING CHANGE:` with a space or two newlines.
 The rest of the commit message is then used for this.
-
-A detailed explanation can be found in this [document][commit-message-format].
