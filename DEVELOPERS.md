@@ -61,7 +61,7 @@ The subject contains succinct description of the change:
 Just as in the **subject**, use the imperative, present tense: "change" not "changed" nor "changes".
 The body should include the motivation for the change and contrast this with previous behavior.
 
-The footer should contain any information about **Breaking Changes** and is also the place to
+The body should contain any information about **Breaking Changes** and is also the place to
 [reference GitHub issues that this commit closes][closing-issues].
 
 **Breaking Changes** should start with the word `BREAKING CHANGE:` with a space or two newlines.
